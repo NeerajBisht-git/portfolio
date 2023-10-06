@@ -9,8 +9,13 @@ body {
   color: #ededed;
   background-color: #081b29;
 }
-h1, h2, h3, h4, h5, h6{
-    margin-bottom: 20px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 20px;
 }
 
 .header {
@@ -405,8 +410,8 @@ section {
   stroke-width: 10;
   stroke: #0ef;
   fill: transparent;
-  stroke-dasharray: 502;
-  stroke-dashoffset: 502;
+  stroke-dasharray: 345;
+  stroke-dashoffset: 346;
   stroke-linecap: round;
 }
 .path-1 {
@@ -424,22 +429,22 @@ section {
 
 @keyframes animate-path1 {
   100% {
-    stroke-dashoffset: 50;
+    stroke-dashoffset: 86;
   }
 }
 @keyframes animate-path2 {
   100% {
-    stroke-dashoffset: 175;
+    stroke-dashoffset: 69;
   }
 }
 @keyframes animate-path3 {
   100% {
-    stroke-dashoffset: 125;
+    stroke-dashoffset: 69;
   }
 }
 @keyframes animate-path4 {
   100% {
-    stroke-dashoffset: 75;
+    stroke-dashoffset: 34;
   }
 }
 .radial-bar .percentage {
@@ -474,7 +479,7 @@ section {
   color: #0ef;
 }
 
-.portfolio{
+.portfolio {
   justify-content: center;
 }
 .portfolio-content {
